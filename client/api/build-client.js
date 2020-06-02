@@ -12,7 +12,7 @@ export default ({ req }) => {
   } else {
     // We must be on the browser
     return axios.create({
-      baseURL: '/',
+      baseURL: 'http://www.peterlaffey.com',
     });
   }
 };
