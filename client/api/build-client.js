@@ -5,7 +5,7 @@ export default ({ req }) => {
     // We are on the server
 
     return axios.create({
-      baseURL: 'http://www.peterlaffey.com',
+      baseURL: 'http://www.peterlaffey.com/',
       headers: req.headers,
     });
   } else {
